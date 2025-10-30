@@ -7,3 +7,8 @@ sources:
     tables:
       - name: activity
       - name: activity_types
+      - name: deal_changes
+      - name: stages
+      - name: users
+      
+      
