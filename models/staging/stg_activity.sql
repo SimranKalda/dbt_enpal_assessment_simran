@@ -4,7 +4,7 @@ with src as (
     select * from {{ source('postgres_public','activity') }}
 ),
 
-renamed as (
+stg_activity as (
     select
         activity_id::bigint as activity_id,
         type as activity_type_key,
@@ -15,5 +15,5 @@ renamed as (
     from src
 )
 
-SELECT * from renamed
+SELECT * from stg_activity
 
