@@ -5,3 +5,4 @@ dbt_packages/
 *.pyc
 *.log
 package-lock.yml
+.DS_Store
