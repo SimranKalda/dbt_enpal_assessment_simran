@@ -1,6 +1,6 @@
 .venv/
-target/
-logs/
+target/*
+logs/*
 dbt_packages/
 *.pyc
 *.log
